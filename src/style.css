@@ -1,0 +1,39 @@
+/*header*/
+header {
+  box-shadow: 2px 5px #eb4e14;
+}
+/* #eb4e14 #1f2654 #d7d2d8 #733c3f #717591 #f1b29d #532c3c*/
+.logo-color-1{
+  color: #eb4e14;
+}
+h2{
+  color:#f1b29d;
+}
+h3{
+  color:#532c3c;
+}
+.s1{
+  background-color: #f1b29d;
+}
+.s2{
+  background-color: #1f2654;
+}
+.s3{
+  background-color: #d7d2d8;
+}
+.reveal{
+  opacity: 0;
+  transform: translateY(-30px);
+}
+
+.reveal-visible{
+  opacity: 1;
+  transform: translateY(0px);
+  transition: .7s /*cubic-beizer(.5,0,0,.1)*/;
+}
+
+/*header*/
+
+/*script*/
+
+/*script*/

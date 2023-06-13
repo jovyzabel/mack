@@ -1,0 +1,154 @@
+@import "~bootstrap/scss/bootstrap";
+@import '~mdb-ui-kit/css/mdb.min.css';
+@font-face{
+  font-family: 'Playfair_Display';
+  src: url('./fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf');
+}
+@font-face{
+  font-family: 'Josefin_Sans';
+  src: url('./fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf');
+}
+/*all*/
+body{
+  font-family: 'Playfair_Display';
+}
+h1{
+  color: #fff;
+  text-shadow: 2px 5px #eb4e14;
+  font-family: 'Josefin_Sans';
+}
+/*all*/
+/*header*/
+header {
+  box-shadow: 2px 5px #eb4e14;
+  width: 100%;
+  z-index: 1;
+  font-family: 'Josefin_Sans';
+}
+
+/*nav*/
+header>nav>div>div>ul>li>a:hover{
+  background-color: #eb4e14;
+  border-radius: 5px;
+}
+/*nav*/
+/* #eb4e14 #1f2654 #d7d2d8 #733c3f #717591 #f1b29d #532c3c*/
+.logo-color-1{
+  color: #eb4e14;
+}
+h2{
+  color:#f1b29d;
+  font-family: 'Josefin_Sans';
+}
+h5,h3{
+  font-family: 'Josefin_Sans';
+}
+p{
+  font-family: 'Playfair_Display';
+}
+section>div>h3{
+  color:#d7d2d8;
+  background-color:#717591;
+  width: 40%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  font-family: 'Josefin_Sans';
+}
+.s1{
+  background-color: #f1b29d;
+}
+.s2{
+  background-color: #1f2654;
+}
+.s3{
+  background-color: #d7d2d8;
+}
+.s4{
+  background-color:#A9ACBD;
+}
+/*header*/
+/*.img-bg{
+  background-image: url('./5068978.jpg');
+}*/
+.btn-style{
+  border: 2px solid #717591;
+  font-family: 'Playfair_Display';
+  color: #717591;
+  box-shadow:4px 8px #717591;
+}
+.btn-style:hover{
+  border: 2px solid #717591;
+  box-shadow:4px 8px #717591;
+  font-weight: bolder;
+}
+.to-up{
+  position: absolute;
+  top: 320px;
+}
+.home-cover{
+  opacity: .9;
+}
+/*.opac-bg{
+  background: #000;
+  opacity: .9;
+}*/
+
+/*animation*/
+.para {
+  text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+}
+.containery {
+  color: #0e0501 ; /*#e5e5e5;*/
+  font-size: 1.6rem;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation {
+  height:50px;
+  overflow:hidden;
+  margin-left: 1rem;
+}
+
+.animation > div > div {
+  padding: 0.25rem 0.75rem;
+  height:2.81rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+.first div {
+  background-color:#20a7d8;
+}
+.second div {
+  background-color: #CD921E;
+
+}
+.third div {
+  background-color:#c10528;
+}
+
+@keyframes text-animation {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -5.62rem;}
+  30% {margin-top: -5.62rem;}
+  40% {margin-top: -11.24rem;}
+  60% {margin-top: -11.24rem;}
+  70% {margin-top: -5.62rem;}
+  80% {margin-top: -5.62rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
+}
+
+
+/*animation*/
+/*script*/
+
+/*script*/
