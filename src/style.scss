@@ -8,9 +8,12 @@
   font-family: 'Josefin_Sans';
   src: url('./fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf');
 }
+
+
 /*all*/
+
 body{
-  font-family: 'Playfair_Display';
+  font-family: 'Josefin_Sans';
 }
 h1{
   color: #fff;
@@ -36,6 +39,10 @@ header>nav>div>div>ul>li>a:hover{
 .logo-color-1{
   color: #eb4e14;
 }
+.brd{
+  border-bottom: 2px ridge #eb4e14;
+  box-shadow: 1px 2px 3px #eb4e14;
+}
 h2{
   color:#f1b29d;
   font-family: 'Josefin_Sans';
@@ -43,9 +50,7 @@ h2{
 h5,h3{
   font-family: 'Josefin_Sans';
 }
-p{
-  font-family: 'Playfair_Display';
-}
+
 section>div>h3{
   color:#d7d2d8;
   background-color:#717591;
@@ -94,8 +99,31 @@ section>div>h3{
 }*/
 
 /*animation*/
-.para {
-  text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+.circle{
+  border: 6px solid #eb4e14;
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  background-color: #000;
+  animation: circle-animation 10s infinite;
+
+}
+.circle:hover{
+  border: 10px solid #d7d2d8;
+  background-color: #000;
+  transition: all 1.5s;
+}
+.l1{
+  animation: texte-animation 6s infinite;
+}
+@keyframes circle-animation{
+  0%{margin-top: 450px;}
+}
+@keyframes texte-animation{
+  0%{font-size: 2em; transition: 2s ease;}
+  50%{font-size: 3em;}
+  100%{font-size: 2em;}
+
 }
 .containery {
   color: #0e0501 ; /*#e5e5e5;*/
@@ -149,6 +177,40 @@ section>div>h3{
 
 
 /*animation*/
+.hover:hover{
+  border-top: solid #eb4e14 14px;
+  transition: all .2s ease-in-out;
+  /*box-shadow: 3px 6px 12px #eb4e14;*/
+}
+@keyframes hover-animation {
+  25% {border-top: solid #eb4e14 20px;}
+  50% {border-top: solid #eb4e14 20px;}
+  75% {border-top: solid #eb4e14 20px;}
+  100% {border-top: solid #eb4e14 20px;}
+}
+/*.anim{
+  animation: updown 8s;
+}
+@keyframes updown {
+  25% {margin-top:-70px;}
+
+}*/
+.trapezoid {
+  border-bottom: 120px solid #000;
+  border-Top: 795px solid #000;
+  border-right: 1610px solid #000;
+  opacity: .57;
+  height: 0px;
+}
+.pxt{
+
+}
+.appear{
+  background-color: #eb4e14;
+  border: #000 dotted 1.5px;
+  border-top: none;
+  transition: all 4s;
+}
 /*script*/
 
 /*script*/
